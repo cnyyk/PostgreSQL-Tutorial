@@ -33,3 +33,11 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- 支持 markdown 编写
+# -- https://www.xncoding.com/2017/01/22/fullstack/readthedoc.html
+from recommonmark.parser import CommonMarkParser
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+source_suffix = ['.rst', '.md']
