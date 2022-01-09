@@ -2,11 +2,11 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'PostgreSQL 教程'
+copyright = '2021, YCH'
+author = 'YCH'
 
-release = '0.1'
+release = '0.1.0'
 version = '0.1.0'
 
 # -- General configuration
